@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Debug" />
+	<File name="..\pc_simulator_sdl\lv_drivers\display\monitor.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3522" topLine="134" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lvgl\lv_core\lv_group.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="891" topLine="42" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lv_examples\lv_tutorial\0_porting\lv_tutorial_porting.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3816" topLine="100" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lvgl\lv_misc\lv_mem.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="991" topLine="58" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lvgl\lv_draw\lv_draw_img.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1084" topLine="42" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lvgl\lv_objx\lv_led.h" open="1" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="609" topLine="67" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lvgl\lv_misc\lv_symbol_def.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4792" topLine="77" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\main.c" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1385" topLine="58" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lv_drivers\lv_drv_conf_templ.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6191" topLine="176" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lvgl\lv_hal\lv_hal_disp.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6423" topLine="200" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lvgl\lv_objx\lv_label.c" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4240" topLine="120" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lvgl\lv_objx\lv_img.h" open="1" top="1" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="810" topLine="46" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lvgl\README.md" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3160" topLine="196" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lv_examples\lv_tests\lv_test_group\lv_test_group.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5930" topLine="59" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lvgl\lv_core\lv_refr.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1154" topLine="52" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lvgl\lv_fonts\myfont20.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="294" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lvgl\lv_objx\lv_bar.c" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2929" topLine="399" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lv_examples\lv_apps\benchmark\benchmark.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1551" topLine="149" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lvgl\lv_core\lv_group.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1319" topLine="47" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lvgl\lv_misc\lv_gc.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1175" topLine="49" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lvgl\lv_core\lv_style.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1571" topLine="79" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lvgl\lv_misc\lv_gc.c" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="437" topLine="21" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lv_drivers\win_drv.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6823" topLine="243" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lvgl\lv_misc\lv_task.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1228" topLine="113" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lvgl\lv_porting\lv_port_disp_templ.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="462" topLine="20" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lv_drv_conf.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6127" topLine="249" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lv_examples\lv_apps\demo\demo.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="9743" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lvgl\lv_draw\lv_draw_img.c" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="114" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lvgl\lv_objx\lv_arc.c" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="549" topLine="114" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lv_examples\lv_tests\lv_test_group\lv_test_group.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="636" topLine="37" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lvgl\lv_objx\lv_label.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3432" topLine="66" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lvgl\lv_conf_checker.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2971" topLine="87" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lvgl\lv_objx\lv_led.c" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="388" topLine="9" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lvgl\lv_misc\lv_ll.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1158" topLine="46" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lvgl\lv_core\lv_style.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1450" topLine="334" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lvgl\lv_hal\lv_hal_disp.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="688" topLine="30" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lvgl\lv_fonts\lv_font_dejavu_40.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1097051" topLine="16752" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lvgl\lv_misc\lv_color.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1012" topLine="38" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lv_ex_conf.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1003" topLine="33" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lvgl\lv_objx\lv_page.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="699" topLine="38" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lvgl\lv_misc\lv_area.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="681" topLine="36" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lvgl\lv_objx\lv_list.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3034" topLine="95" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lvgl\lv_misc\lv_ll.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3350" topLine="129" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\myui.c" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6042" topLine="162" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lv_examples\lv_apps\demo\demo.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="272" topLine="18" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lv_drivers\display\monitor.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="289" topLine="18" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lvgl\lv_objx\lv_img.c" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1754" topLine="57" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lvgl\lv_core\lv_obj.c" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="9253" topLine="333" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lv_conf.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6963" topLine="128" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lvgl\lv_hal\lv_hal_tick.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="102" topLine="79" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lvgl\lv_objx\lv_arc.h" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="562" topLine="33" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lv_drivers\display\fbdev.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="919" topLine="27" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lvgl\lv_misc\lv_anim.c" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2538" topLine="136" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lv_drivers\display\fbdev.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="112" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lvgl\lv_core\lv_obj.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="14725" topLine="502" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lvgl\lv_misc\lv_task.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1369" topLine="104" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lvgl\lv_objx\lv_list.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2267" topLine="86" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lvgl\lv_misc\lv_mem.c" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3795" topLine="159" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lvgl\lv_core\lv_refr.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="15954" topLine="541" />
+		</Cursor>
+	</File>
+	<File name="..\pc_simulator_sdl\lvgl\lv_misc\lv_area.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="797" topLine="51" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>

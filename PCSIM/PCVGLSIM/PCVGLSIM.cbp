@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="PCVGLSIM" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/PCVGLSIM" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="../pc_simulator_sdl" />
+				</Compiler>
+				<Linker>
+					<Add option="-lmingw32 -lSDL2main -lSDL2" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/PCVGLSIM" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../pc_simulator_sdl/.cproject" />
+		<Unit filename="../pc_simulator_sdl/.editorconfig" />
+		<Unit filename="../pc_simulator_sdl/.github/stale.yml" />
+		<Unit filename="../pc_simulator_sdl/.gitignore" />
+		<Unit filename="../pc_simulator_sdl/.gitmodules" />
+		<Unit filename="../pc_simulator_sdl/.project" />
+		<Unit filename="../pc_simulator_sdl/Dockerfile" />
+		<Unit filename="../pc_simulator_sdl/Makefile" />
+		<Unit filename="../pc_simulator_sdl/README.md" />
+		<Unit filename="../pc_simulator_sdl/licence.txt" />
+		<Unit filename="../pc_simulator_sdl/lv_conf.h" />
+		<Unit filename="../pc_simulator_sdl/lv_drivers/.git" />
+		<Unit filename="../pc_simulator_sdl/lv_drivers/.github/stale.yml" />
+		<Unit filename="../pc_simulator_sdl/lv_drivers/.gitignore" />
+		<Unit filename="../pc_simulator_sdl/lv_drivers/README.md" />
+		<Unit filename="../pc_simulator_sdl/lv_drivers/display/R61581.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_drivers/display/R61581.h" />
+		<Unit filename="../pc_simulator_sdl/lv_drivers/display/SSD1963.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_drivers/display/SSD1963.h" />
+		<Unit filename="../pc_simulator_sdl/lv_drivers/display/ST7565.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_drivers/display/ST7565.h" />
+		<Unit filename="../pc_simulator_sdl/lv_drivers/display/display.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_drivers/display/fbdev.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_drivers/display/fbdev.h" />
+		<Unit filename="../pc_simulator_sdl/lv_drivers/display/monitor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_drivers/display/monitor.h" />
+		<Unit filename="../pc_simulator_sdl/lv_drivers/docs/astyle_c" />
+		<Unit filename="../pc_simulator_sdl/lv_drivers/docs/astyle_h" />
+		<Unit filename="../pc_simulator_sdl/lv_drivers/indev/AD_touch.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_drivers/indev/AD_touch.h" />
+		<Unit filename="../pc_simulator_sdl/lv_drivers/indev/FT5406EE8.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_drivers/indev/FT5406EE8.h" />
+		<Unit filename="../pc_simulator_sdl/lv_drivers/indev/XPT2046.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_drivers/indev/XPT2046.h" />
+		<Unit filename="../pc_simulator_sdl/lv_drivers/indev/evdev.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_drivers/indev/evdev.h" />
+		<Unit filename="../pc_simulator_sdl/lv_drivers/indev/indev.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_drivers/indev/keyboard.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_drivers/indev/keyboard.h" />
+		<Unit filename="../pc_simulator_sdl/lv_drivers/indev/mouse.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_drivers/indev/mouse.h" />
+		<Unit filename="../pc_simulator_sdl/lv_drivers/indev/mousewheel.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_drivers/indev/mousewheel.h" />
+		<Unit filename="../pc_simulator_sdl/lv_drivers/lv_drivers.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_drivers/lv_drv_conf_templ.h" />
+		<Unit filename="../pc_simulator_sdl/lv_drivers/win_drv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_drivers/win_drv.h" />
+		<Unit filename="../pc_simulator_sdl/lv_drv_conf.h" />
+		<Unit filename="../pc_simulator_sdl/lv_ex_conf.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/.git" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/.github/stale.yml" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/.gitignore" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/README.md" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/docs/astyle_c" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/docs/astyle_h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_apps/benchmark/benchmark.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_apps/benchmark/benchmark.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_apps/benchmark/benchmark.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_apps/benchmark/benchmark_bg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_apps/benchmark/benchmark_bg.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_apps/demo/bubble_pattern.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_apps/demo/demo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_apps/demo/demo.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_apps/demo/demo.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_apps/demo/img_bubble_pattern.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_apps/sysmon/sysmon.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_apps/sysmon/sysmon.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_apps/sysmon/sysmon.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_apps/terminal/terminal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_apps/terminal/terminal.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_apps/terminal/terminal.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_apps/tpcal/tpcal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_apps/tpcal/tpcal.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_apps/tpcal/tpcal.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_ex_conf_templ.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_examples.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_examples.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_group/lv_test_group.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_group/lv_test_group.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_group/lv_test_group.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_group/lv_test_group_1.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_misc/lv_test_task.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_misc/lv_test_task.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_obj/lv_test_obj.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_obj/lv_test_obj.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_obj/lv_test_obj.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_obj/lv_test_object_1.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_arc/lv_test_arc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_arc/lv_test_arc.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_arc/lv_test_arc.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_arc/lv_test_arc_1.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_bar/lv_test_bar.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_bar/lv_test_bar.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_bar/lv_test_bar.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_bar/lv_test_bar_1.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_btn/lv_test_btn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_btn/lv_test_btn.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_btn/lv_test_btn.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_btn/lv_test_btn_1.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_btnm/lv_test_btnm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_btnm/lv_test_btnm.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_btnm/lv_test_btnm.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_btnm/lv_test_btnm_1.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_canvas/lv_test_canvas.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_canvas/lv_test_canvas.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_canvas/lv_test_canvas.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_canvas/lv_test_canvas_1.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_canvas/lv_test_canvas_2.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_cb/lv_test_cb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_cb/lv_test_cb.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_cb/lv_test_cb.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_cb/lv_test_cb_1.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_chart/lv_test_chart.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_chart/lv_test_chart.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_chart/lv_test_chart.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_chart/lv_test_chart_1.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_cont/lv_test_cont.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_cont/lv_test_cont.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_cont/lv_test_cont.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_cont/lv_test_cont_1.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_cont/lv_test_cont_2.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_ddlist/lv_test_ddlist.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_ddlist/lv_test_ddlist.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_ddlist/lv_test_ddlist.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_ddlist/lv_test_ddlist_1.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_gauge/lv_test_gauge.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_gauge/lv_test_gauge.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_gauge/lv_test_gauge.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_gauge/lv_test_gauge_1.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_img/flower_icon.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_img/img_flower_icon.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_img/lv_test_img.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_img/lv_test_img.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_img/lv_test_img.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_img/lv_test_img_1.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_imgbtn/imgbtn_img_1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_imgbtn/imgbtn_img_2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_imgbtn/imgbtn_img_3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_imgbtn/imgbtn_img_4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_imgbtn/lv_test_imgbtn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_imgbtn/lv_test_imgbtn.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_imgbtn/lv_test_imgbtn.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_imgbtn/lv_test_imgbtn_1.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_kb/lv_test_kb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_kb/lv_test_kb.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_kb/lv_test_kb.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_kb/lv_test_kb_1.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_kb/lv_test_kb_2.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_label/lv_test_label.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_label/lv_test_label.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_label/lv_test_label.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_label/lv_test_label_1.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_label/lv_test_label_2.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_label/lv_test_label_3.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_label/lv_test_label_4.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_led/lv_test_led.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_led/lv_test_led.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_led/lv_test_led.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_led/lv_test_led_1.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_line/lv_test_line.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_line/lv_test_line.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_line/lv_test_line.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_line/lv_test_line_1.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_list/lv_test_list.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_list/lv_test_list.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_list/lv_test_list.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_list/lv_test_list_1.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_lmeter/lv_test_lmeter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_lmeter/lv_test_lmeter.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_lmeter/lv_test_lmeter.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_lmeter/lv_test_lmeter_1.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_mbox/lv_test_mbox.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_mbox/lv_test_mbox.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_mbox/lv_test_mbox.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_mbox/lv_test_mbox_1.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_page/lv_test_page.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_page/lv_test_page.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_page/lv_test_page.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_page/lv_test_page_1.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_page/lv_test_page_2.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_preload/lv_test_preload.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_preload/lv_test_preload.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_preload/lv_test_preload.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_preload/lv_test_preload_1.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_roller/lv_test_roller.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_roller/lv_test_roller.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_roller/lv_test_roller.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_roller/lv_test_roller_1.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_slider/lv_test_slider.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_slider/lv_test_slider.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_slider/lv_test_slider.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_slider/lv_test_slider_1.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_sw/lv_test_sw.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_sw/lv_test_sw.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_sw/lv_test_sw.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_sw/lv_test_sw_1.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_ta/lv_test_ta.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_ta/lv_test_ta.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_ta/lv_test_ta.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_ta/lv_test_ta_1.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_ta/lv_test_ta_2.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_table/lv_test_table.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_table/lv_test_table.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_table/lv_test_table.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_table/lv_test_table_1.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_table/lv_test_table_2.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_tabview/lv_test_tabview.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_tabview/lv_test_tabview.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_tabview/lv_test_tabview.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_tabview/lv_test_tabview_1.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_tileview/lv_test_tileview.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_tileview/lv_test_tileview.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_tileview/lv_test_tileview.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_tileview/lv_test_tileview_1.gif" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_win/lv_test_win.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_win/lv_test_win.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_win/lv_test_win.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_objx/lv_test_win/lv_test_win_1.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_stress/lv_test_stress.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_stress/lv_test_stress.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_stress/lv_test_stress.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_stress/lv_test_stress.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_theme/lv_test_theme.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_theme/lv_test_theme_1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_theme/lv_test_theme_1.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_theme/lv_test_theme_1.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_theme/lv_test_theme_2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_theme/lv_test_theme_2.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tests/lv_test_theme/lv_test_theme_2.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/0_porting/lv_tutorial_porting.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/0_porting/lv_tutorial_porting.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/0_porting/lv_tutorial_porting.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/10_keyboard/lv_tutorial_keyboard.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/10_keyboard/lv_tutorial_keyboard.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/10_keyboard/lv_tutorial_keyboard.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/1_hello_world/lv_tutorial_hello_world.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/1_hello_world/lv_tutorial_hello_world.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/1_hello_world/lv_tutorial_hello_world.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/2_objects/lv_tutorial_objects.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/2_objects/lv_tutorial_objects.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/2_objects/lv_tutorial_objects.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/3_styles/lv_tutorial_styles.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/3_styles/lv_tutorial_styles.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/3_styles/lv_tutorial_styles.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/4_themes/lv_tutorial_themes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/4_themes/lv_tutorial_themes.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/4_themes/lv_tutorial_themes.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/5_antialiasing/apple.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/5_antialiasing/apple_chroma.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/5_antialiasing/apple_icon_alpha.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/5_antialiasing/apple_icon_chroma.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/5_antialiasing/lv_tutorial_antialiasing.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/5_antialiasing/lv_tutorial_antialiasing.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/5_antialiasing/lv_tutorial_antialiasing.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/6_images/blue_flower.jpg" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/6_images/blue_flower_16.bin" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/6_images/blue_flower_16_swap.bin" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/6_images/blue_flower_32.bin" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/6_images/blue_flower_8.bin" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/6_images/lv_tutorial_images.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/6_images/lv_tutorial_images.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/6_images/lv_tutorial_images.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/6_images/red_flower.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/6_images/red_flower.png" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/7_fonts/arial_ascii_20.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/7_fonts/arial_cyrillic_20.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/7_fonts/arial_math_20.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/7_fonts/lv_tutorial_fonts.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/7_fonts/lv_tutorial_fonts.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/7_fonts/lv_tutorial_fonts.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/8_animations/lv_tutorial_animations.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/8_animations/lv_tutorial_animations.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/8_animations/lv_tutorial_animations.mk" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/9_responsive/lv_tutorial_responsive.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/9_responsive/lv_tutorial_responsive.h" />
+		<Unit filename="../pc_simulator_sdl/lv_examples/lv_tutorial/9_responsive/lv_tutorial_responsive.mk" />
+		<Unit filename="../pc_simulator_sdl/lvgl/.editorconfig" />
+		<Unit filename="../pc_simulator_sdl/lvgl/.git" />
+		<Unit filename="../pc_simulator_sdl/lvgl/.github/ISSUE_TEMPLATE/all-other-issues.md" />
+		<Unit filename="../pc_simulator_sdl/lvgl/.github/ISSUE_TEMPLATE/bug-report.md" />
+		<Unit filename="../pc_simulator_sdl/lvgl/.github/stale.yml" />
+		<Unit filename="../pc_simulator_sdl/lvgl/.gitignore" />
+		<Unit filename="../pc_simulator_sdl/lvgl/.gitmodules" />
+		<Unit filename="../pc_simulator_sdl/lvgl/LICENCE.txt" />
+		<Unit filename="../pc_simulator_sdl/lvgl/README.md" />
+		<Unit filename="../pc_simulator_sdl/lvgl/docs/CODE_OF_CONDUCT.md" />
+		<Unit filename="../pc_simulator_sdl/lvgl/docs/CONTRIBUTING.md" />
+		<Unit filename="../pc_simulator_sdl/lvgl/docs/astyle_c" />
+		<Unit filename="../pc_simulator_sdl/lvgl/docs/astyle_h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_conf_checker.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_conf_checker.py" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_conf_templ.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_core/lv_core.mk" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_core/lv_group.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_core/lv_group.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_core/lv_indev.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_core/lv_indev.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_core/lv_lang.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_core/lv_lang.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_core/lv_obj.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_core/lv_obj.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_core/lv_refr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_core/lv_refr.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_core/lv_style.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_core/lv_style.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_core/lv_vdb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_core/lv_vdb.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_draw/lv_draw.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_draw/lv_draw.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_draw/lv_draw.mk" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_draw/lv_draw_arc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_draw/lv_draw_arc.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_draw/lv_draw_img.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_draw/lv_draw_img.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_draw/lv_draw_label.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_draw/lv_draw_label.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_draw/lv_draw_line.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_draw/lv_draw_line.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_draw/lv_draw_rbasic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_draw/lv_draw_rbasic.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_draw/lv_draw_rect.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_draw/lv_draw_rect.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_draw/lv_draw_triangle.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_draw/lv_draw_triangle.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_draw/lv_draw_vbasic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_draw/lv_draw_vbasic.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_fonts/lv_font_builtin.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_fonts/lv_font_builtin.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_fonts/lv_font_dejavu_10.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_fonts/lv_font_dejavu_10_cyrillic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_fonts/lv_font_dejavu_10_latin_sup.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_fonts/lv_font_dejavu_20.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_fonts/lv_font_dejavu_20_cyrillic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_fonts/lv_font_dejavu_20_latin_sup.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_fonts/lv_font_dejavu_30.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_fonts/lv_font_dejavu_30_cyrillic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_fonts/lv_font_dejavu_30_latin_sup.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_fonts/lv_font_dejavu_40.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_fonts/lv_font_dejavu_40_cyrillic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_fonts/lv_font_dejavu_40_latin_sup.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_fonts/lv_font_monospace_8.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_fonts/lv_font_symbol_10.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_fonts/lv_font_symbol_20.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_fonts/lv_font_symbol_30.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_fonts/lv_font_symbol_40.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_fonts/lv_fonts.mk" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_fonts/myfont20.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_hal/lv_hal.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_hal/lv_hal.mk" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_hal/lv_hal_disp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_hal/lv_hal_disp.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_hal/lv_hal_indev.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_hal/lv_hal_indev.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_hal/lv_hal_tick.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_hal/lv_hal_tick.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_misc/lv_anim.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_misc/lv_anim.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_misc/lv_area.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_misc/lv_area.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_misc/lv_circ.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_misc/lv_circ.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_misc/lv_color.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_misc/lv_color.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_misc/lv_font.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_misc/lv_font.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_misc/lv_fs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_misc/lv_fs.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_misc/lv_gc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_misc/lv_gc.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_misc/lv_ll.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_misc/lv_ll.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_misc/lv_log.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_misc/lv_log.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_misc/lv_math.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_misc/lv_math.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_misc/lv_mem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_misc/lv_mem.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_misc/lv_misc.mk" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_misc/lv_symbol_def.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_misc/lv_task.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_misc/lv_task.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_misc/lv_templ.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_misc/lv_templ.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_misc/lv_txt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_misc/lv_txt.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_misc/lv_ufs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_misc/lv_ufs.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_arc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_arc.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_bar.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_bar.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_btn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_btn.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_btnm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_btnm.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_calendar.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_calendar.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_canvas.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_canvas.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_cb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_cb.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_chart.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_chart.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_cont.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_cont.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_ddlist.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_ddlist.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_gauge.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_gauge.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_img.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_img.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_imgbtn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_imgbtn.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_kb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_kb.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_label.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_label.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_led.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_led.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_line.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_line.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_list.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_list.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_lmeter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_lmeter.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_mbox.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_mbox.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_objx.mk" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_objx_templ.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_objx_templ.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_page.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_page.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_preload.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_preload.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_roller.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_roller.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_slider.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_slider.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_spinbox.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_spinbox.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_sw.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_sw.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_ta.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_ta.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_table.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_table.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_tabview.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_tabview.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_tileview.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_tileview.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_win.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_objx/lv_win.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_porting/lv_port_disp_templ.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_porting/lv_port_disp_templ.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_porting/lv_port_fs_templ.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_porting/lv_port_fs_templ.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_porting/lv_port_indev_templ.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_porting/lv_port_indev_templ.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_themes/lv_theme.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_themes/lv_theme.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_themes/lv_theme_alien.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_themes/lv_theme_alien.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_themes/lv_theme_default.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_themes/lv_theme_default.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_themes/lv_theme_material.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_themes/lv_theme_material.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_themes/lv_theme_mono.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_themes/lv_theme_mono.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_themes/lv_theme_nemo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_themes/lv_theme_nemo.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_themes/lv_theme_night.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_themes/lv_theme_night.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_themes/lv_theme_templ.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_themes/lv_theme_templ.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_themes/lv_theme_zen.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_themes/lv_theme_zen.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_themes/lv_themes.mk" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lv_version.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lvgl.h" />
+		<Unit filename="../pc_simulator_sdl/lvgl/lvgl.mk" />
+		<Unit filename="../pc_simulator_sdl/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/mouse_cursor_icon.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/myui.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pc_simulator_sdl/pc_simulator.launch" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
